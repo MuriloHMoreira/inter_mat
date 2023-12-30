@@ -1,0 +1,40 @@
+:root, [data-bs-theme=light] {
+  --bs-secondary: #0087ff;
+  --bs-secondary-rgb: 0,135,255;
+  --bs-secondary-text-emphasis: #003666;
+  --bs-secondary-bg-subtle: #CCE7FF;
+  --bs-secondary-border-subtle: #99CFFF;
+  --bs-body-font-family: 'IBM Plex Mono', monospace;
+}
+
+.btn-secondary {
+  --bs-btn-color: #000000;
+  --bs-btn-bg: #0087ff;
+  --bs-btn-border-color: #0087ff;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #2699FF;
+  --bs-btn-hover-border-color: #1993FF;
+  --bs-btn-focus-shadow-rgb: 0,20,38;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #339FFF;
+  --bs-btn-active-border-color: #1993FF;
+  --bs-btn-disabled-color: #000000;
+  --bs-btn-disabled-bg: #0087ff;
+  --bs-btn-disabled-border-color: #0087ff;
+}
+
+.btn-outline-secondary {
+  --bs-btn-color: #0087ff;
+  --bs-btn-border-color: #0087ff;
+  --bs-btn-focus-shadow-rgb: 0,135,255;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #0087ff;
+  --bs-btn-hover-border-color: #0087ff;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #0087ff;
+  --bs-btn-active-border-color: #0087ff;
+  --bs-btn-disabled-color: #0087ff;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #0087ff;
+}
+

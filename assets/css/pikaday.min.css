@@ -227,3 +227,16 @@
 img {
 }
 
+a {
+  color: #e86a34;
+  text-decoration: underline;
+}
+
+.maintxt {
+  position: relative;
+}
+
+.maintxt > img, .overlay-text {
+  position: absolute;
+}
+
