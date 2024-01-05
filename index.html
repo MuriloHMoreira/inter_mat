@@ -353,7 +353,8 @@ months = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', '
 var theDate = new Date(document.lastModified); 
 theDate.setTime((theDate.getTime()+(5000*60*60)) ) 
 theDate.setHours(theDate.getHours() - 5);
-with (theDate) { document.write("Última atualização em: "+getDate()+' de '+months[getMonth()]+' de '+getFullYear()+' às '+ getHours() +':'+getMinutes()+" BRT") } 
+with (theDate) { document.write("Last updated "+getDate()+' '+months[getMonth()]+' '+getFullYear()+' '+ ("0" +getHours()).slice(-2) +':'+("0" +getMinutes()).slice(-2)+" GMT") 
+}
 </script></p>
             </div>
         </div>

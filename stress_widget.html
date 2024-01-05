@@ -430,13 +430,14 @@
     </main>
     <footer class="footer" style="margin-top: 25px;">
         <div class="container">
-            <div style="font-family: 'IBM Plex Mono';">
-                <p align="center"><i class="far fa-copyright"></i>&nbsp;<a href="https://murilohmoreira.github.io/">Murilo Henrique Moreira</a> – <script language="javascript"> 
+            <div>
+                <p align="center" style="font-family: 'IBM Plex Mono', monospace;"><i class="far fa-copyright"></i>&nbsp;<a href="https://murilohmoreira.github.io/">Murilo Henrique Moreira</a> – <script language="javascript"> 
 months = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'];
 var theDate = new Date(document.lastModified); 
 theDate.setTime((theDate.getTime()+(5000*60*60)) ) 
 theDate.setHours(theDate.getHours() - 5);
-with (theDate) { document.write("Última atualização em: "+getDate()+' de '+months[getMonth()]+' de '+getFullYear()+' às '+ getHours() +':'+getMinutes()+" BRT") } 
+with (theDate) { document.write("Last updated "+getDate()+' '+months[getMonth()]+' '+getFullYear()+' '+ ("0" +getHours()).slice(-2) +':'+("0" +getMinutes()).slice(-2)+" GMT") 
+}
 </script></p>
             </div>
         </div>
