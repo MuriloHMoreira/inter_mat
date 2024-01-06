@@ -296,3 +296,15 @@ a {
   }
 }
 
+@media (min-width: 390px) {
+  .heading-lever {
+    margin-top: 15px!important;
+  }
+}
+
+@media (min-width: 475px) {
+  .heading-lever {
+    margin-top: 25px!important;
+  }
+}
+
