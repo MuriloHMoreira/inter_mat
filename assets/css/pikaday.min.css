@@ -240,3 +240,59 @@ a {
   position: absolute;
 }
 
+@media (min-width: 300px) {
+  .brief-intro {
+    font-size: 19px!important;
+  }
+}
+
+@media (min-width: 576px) {
+  .brief-intro {
+    font-size: 20px!important;
+  }
+}
+
+@media (min-width: 992px) {
+  .brief-intro {
+    font-size: 20px!important;
+  }
+}
+
+@media (min-width: 300px) {
+  .about-paragraph {
+    font-size: 18px!important;
+  }
+}
+
+@media (min-width: 576px) {
+  .about-paragraph {
+    font-size: 22px!important;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-paragraph {
+    font-size: 23px!important;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-paragraph {
+    font-size: 24px!important;
+  }
+}
+
+@media (min-width: 300px) {
+  .crystal-content {
+    height: 500px!important;
+    margin-bottom: 95px!important;
+  }
+}
+
+@media (min-width: 576px) {
+  .crystal-content {
+    height: 300px!important;
+    margin-bottom: 40px!important;
+  }
+}
+
