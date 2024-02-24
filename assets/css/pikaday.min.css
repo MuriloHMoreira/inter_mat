@@ -326,3 +326,22 @@ a {
   }
 }
 
+.more-info {
+  column-gap: 14px;
+}
+
+.info-hover:hover {
+  background-color: #cccccc!important;
+}
+
+@media (min-width: 300px) {
+  .share-button {
+  }
+}
+
+@media (min-width: 576px) {
+  .share-button {
+    margin-left: auto;
+  }
+}
+
